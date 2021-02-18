@@ -34,6 +34,21 @@
 $ npm install
 ```
 
+## Environment
+```
+- MONGO_URL - mongodb connection url
+Scheme: mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
+
+- API_PORT - application port, default 3000
+
+- API_STAGE - application stage (dev, prod), default dev
+
+- ACCESS_TOKEN_SECRET - access token secret
+
+- ACCESS_TOKEN_LIVE - access token live, default 1h
+
+```
+
 ## Running the app
 
 ```bash
